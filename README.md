@@ -1,12 +1,12 @@
-# React Athentication with Auth0 & Lock
+# React Authentication with Auth0 & Lock
 
-The example of React Athenticaion app with Auth0 & Lock.<br>
+The example of React Authenticaion app with Auth0’s Lock.<br>
 The login/signup forms are embedded in `/login` page.
 
 ## Run
-In order to run this sample app. first you need to create an [Auth0](https://auth0.com/) account and and Auth0 client.
+In order to run this sample app. first you need to create an [Auth0](https://auth0.com/) account and Auth0 client. Plus, you must add `http://localhost:3000/login` to the Allowed Callback URLs, and `http://localhost:3000` to the Allowed Web Origins on your Auth0 client setting. 
 
-Copy the repository and install dependencies:
+After set up your Auth0 account, copy the repository and install dependencies:
 ```bash
 $ git clone https://github.com/zacfukuda/react-auth0.git
 $ cd react-auth0
@@ -39,4 +39,4 @@ $ yarn start
 - [Auth0 Lock](https://auth0.com/lock)
 - [Lock Configuration Options](https://auth0.com/docs/libraries/lock/v11/configuration)
 - [Lock 11 for Web](https://auth0.com/docs/libraries/lock/v11)
-- [auth0/lock](https://github.com/auth0/lock)
+- [auth0/lock](https://github.com/auth0/lock) (Github)
