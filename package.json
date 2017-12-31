@@ -4,12 +4,11 @@
   "private": false,
   "author": "Zac Fukuda (https://www.zacfukuda.com/)",
   "license": "MIT",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/zacfukuda/react-auth0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacfukuda/react-auth0"
   },
   "dependencies": {
-    "auth0-js": "^9.0.0",
     "auth0-lock": "^11.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

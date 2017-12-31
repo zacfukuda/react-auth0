@@ -285,17 +285,6 @@ auth0-js@9.0.1:
     url-join "^1.1.0"
     winchan "^0.2.0"
 
-auth0-js@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.0.0.tgz#804d65cd8913bb6d1140d101af622ef6f5260382"
-  dependencies:
-    base64-js "^1.2.0"
-    idtoken-verifier "^1.1.0"
-    qs "^6.4.0"
-    superagent "^3.3.1"
-    url-join "^1.1.0"
-    winchan "^0.2.0"
-
 auth0-lock@^11.0.1:
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/auth0-lock/-/auth0-lock-11.0.1.tgz#a51dadfdbce43dd0c52d7c79de78edd8555ad838"

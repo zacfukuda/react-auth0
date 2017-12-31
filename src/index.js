@@ -5,7 +5,7 @@ import App from './App';
 import './index.css';
 
 render((
-	<BrowserRouter>
-		<App />
-	</BrowserRouter>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 ), document.getElementById('root'));
