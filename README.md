@@ -3,6 +3,8 @@
 The example of React Authenticaion app with Auth0’s Lock.<br>
 The login/signup forms are embedded in `/login` page.
 
+The official tutorial is available at https://www.mokuji.me/article/react-auth0.
+
 ## Run
 In order to run this sample app. first you need to create an [Auth0](https://auth0.com/) account and Auth0 client. Plus, you must add `http://localhost:3000/login` to the Allowed Callback URLs, and `http://localhost:3000` to the Allowed Web Origins on your Auth0 client setting. 
 
@@ -24,7 +26,6 @@ The inside of `auth0-variables.js` looks like this:
 export const AUTH_CONFIG = {
   domain: 'yourdomain.auth0.com',
   clientId: 'yourclientid',
-  callbackUrl: 'http://localhost:3000/callback',
   container: 'auth0-login-container'
 }
 ```
